@@ -5,11 +5,11 @@ K {}
 V {}
 S {}
 E {}
-T {MOSFET as a capacitor (MOSCAP)} -140 -520 0 0 0.8 0.8 {layer=8}
+T {MOSFET as a capacitor (MOSCAP)} 20 -470 0 0 0.8 0.8 {layer=8}
 T {Gate-channel capacitor is used as a capacitor.
 From integral of the current, this moscap is equivalent to 1.5 pF.
 Note that MOSCAP is a voltage-dependent capcacitor,
-so not completely equivalent to ideal capacitor.} -140 -460 0 0 0.4 0.4 {}
+so not completely equivalent to ideal capacitor.} 20 -410 0 0 0.4 0.4 {}
 N -100 -50 -100 -30 {
 lab=GND}
 N -100 -130 -100 -110 {

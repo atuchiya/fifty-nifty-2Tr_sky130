@@ -5,10 +5,10 @@ K {}
 V {}
 S {}
 E {}
-T {MOSFET as a diode} -140 -500 0 0 0.8 0.8 {layer=8}
+T {MOSFET as a diode} 20 -390 0 0 0.8 0.8 {layer=8}
 T {This configuration (connecting gate and drain) is
 called "diode connection",
-very important in analog circuits.} -140 -440 0 0 0.4 0.4 {}
+very important in analog circuits.} 20 -330 0 0 0.4 0.4 {}
 N 120 -60 120 -40 {
 lab=GND}
 N 120 -90 130 -90 {

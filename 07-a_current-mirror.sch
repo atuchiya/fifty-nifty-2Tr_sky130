@@ -5,10 +5,10 @@ K {}
 V {}
 S {}
 E {}
-T {07 Current Mirror} -140 -480 0 0 0.8 0.8 {layer=8}
+T {07 Current Mirror} 20 -450 0 0 0.8 0.8 {layer=8}
 T {Copy Iin to Iout. Change the parameter X to multiply Iout
 Ideally, Iout is independent to Vout
-but the internal resistance (rds) affects Iout} -140 -420 0 0 0.4 0.4 {}
+but the internal resistance (rds) affects Iout} 20 -390 0 0 0.4 0.4 {}
 N 120 -60 120 -40 {
 lab=GND}
 N -140 -130 -140 -110 {
@@ -49,7 +49,7 @@ N 240 -240 240 -220 {
 lab=vout}
 C {sky130_fd_pr/corner.sym} -140 -300 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/gnd.sym} 120 -40 0 0 {name=l3 lab=GND}
-C {devices/code_shown.sym} -190 40 0 0 {name=param only_toplevel=false value=".param L=0.6
+C {devices/code_shown.sym} -160 40 0 0 {name=param only_toplevel=false value=".param L=0.6
 .param W=60
 .param X=2"}
 C {devices/gnd.sym} -140 -30 0 0 {name=l1 lab=GND}

@@ -5,11 +5,11 @@ K {}
 V {}
 S {}
 E {}
-T {MOSFET as a Current Source} -140 -510 0 0 0.8 0.8 {layer=8}
+T {MOSFET as a Current Source} 20 -420 0 0 0.8 0.8 {layer=8}
 T {MOSFET is a VCCS (Voltage-Controlled Current Source)
 in saturation region (Vds > Vgs - Vth, Vgs > Vth)
 rds (=1/gds) is the internal resistance of current source.
-To increase rds, use large L.} -140 -450 0 0 0.4 0.4 {}
+To increase rds, use large L.} 20 -360 0 0 0.4 0.4 {}
 N 120 -60 120 -40 {
 lab=GND}
 N 120 -90 130 -90 {

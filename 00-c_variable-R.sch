@@ -5,9 +5,9 @@ K {}
 V {}
 S {}
 E {}
-T {MOSFET as a variable resistor} -140 -470 0 0 0.8 0.8 {layer=8}
+T {MOSFET as a variable resistor} 20 -380 0 0 0.8 0.8 {layer=8}
 T {MOSFET is a variable resistor in linear region
-(Vds < Vgs - Vth, Vgs > Vth).} -140 -410 0 0 0.4 0.4 {}
+(Vds < Vgs - Vth, Vgs > Vth).} 20 -320 0 0 0.4 0.4 {}
 N 120 -60 120 -40 {
 lab=GND}
 N 120 -90 130 -90 {
