@@ -46,3 +46,9 @@ Harald Pretl and Matthias Eberlein, ``Fifty Nifty Variations of Two-Transistor C
 
 ### No. 10 : Common-source amplifier with active load
 * 10-a_common-source-amp.sch : Common-source amplifier with active load
+
+
+### No. 11 : Cascoded Common-source amplifier
+* 11-a_cascoded-cs.sch : Cascoded common-source amplifier, IO cureve and gain/phase curve
+* 11-b_cascoded-cs.sch : Cascoded common-source amplifier, output impedance
+
