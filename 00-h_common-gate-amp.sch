@@ -45,10 +45,10 @@ spiceprefix=X
 }
 C {devices/code_shown.sym} -190 40 0 0 {name=param only_toplevel=false value=".param L=0.15
 .param W=15
-.param Vbias=1.0"}
+.param Vib=1.0"}
 C {devices/gnd.sym} -250 -30 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} -250 -80 0 0 {name=Vdd value=1.8 savecurrent=false}
-C {devices/vsource.sym} -180 -80 0 0 {name=Vin value="DC Vbias AC 1"  savecurrent=false}
+C {devices/vsource.sym} -180 -80 0 0 {name=Vin value="DC Vib AC 1"  savecurrent=false}
 C {devices/gnd.sym} -180 -30 0 0 {name=l2 lab=GND}
 C {devices/lab_pin.sym} -180 -130 1 0 {name=p2 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 50 -130 0 0 {name=p3 sig_type=std_logic lab=vin}
@@ -76,8 +76,8 @@ device=resistor
 m=1}
 C {devices/vdd.sym} 200 -230 0 0 {name=l5 lab=VDD}
 C {devices/lab_pin.sym} 240 -130 2 0 {name=p1 sig_type=std_logic lab=vout}
-C {devices/code_shown.sym} 20 370 0 0 {name=measure only_toplevel=false value=".measure dc gm find @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gm] at=Vbias
-.measure dc gds find @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gds] at=Vbias
+C {devices/code_shown.sym} 20 370 0 0 {name=measure only_toplevel=false value=".measure dc gm find @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gm] at=Vib
+.measure dc gds find @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gds] at=Vib
 .measure ac gain find Vdb(vout) at=1e6
 .measure ac ugf when Vdb(vout)=0"}
 C {devices/vdd.sym} 120 -190 0 0 {name=l7 lab=VDD}
