@@ -1,8 +1,12 @@
-# Schematic examples in sky130 for "Fifty Nifty Variations of Two-Transistor Circuits"
+# "Fifty Nifty Variations of Two-Transistor Circuits" Schematic Examples in sky130
 
 Akira Tsuchiya
 
-This repository is a collection of schematics in sky130 for better understanding of "Fifty Nifty Variations of Two-Transistor Circuits" by Harald Pretl and Matthias Eberlein.
+This is a collection of schematics of 2-transister circuits introduced in "Fifty Nifty Variations of Two-Transistor Circuits" by Harald Pretl and Matthias Eberlein.
+
+Prerequisites:
+* sky130 PDK
+* Xschem
 
 ## Reference
 
@@ -46,7 +50,6 @@ Harald Pretl and Matthias Eberlein, ``Fifty Nifty Variations of Two-Transistor C
 
 ### No. 10 : Common-source amplifier with active load
 * 10-a_common-source-amp.sch : Common-source amplifier with active load
-
 
 ### No. 11 : Cascoded Common-source amplifier
 * 11-a_cascoded-cs.sch : Cascoded common-source amplifier, IO cureve and gain/phase curve
