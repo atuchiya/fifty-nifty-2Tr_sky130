@@ -18,7 +18,7 @@ Harald Pretl and Matthias Eberlein, ``Fifty Nifty Variations of Two-Transistor C
 ## List of schematics
 ### No. 0 : MOSFET characteristics and single-stage amplifiers
 * 00-a_nfet.sch : NMOSFET characteristics
-* 00-b_pfet.sch : PFET characteristics
+* 00-b_pfet.sch : PMOSFET characteristics
 * 00-c_variable-R.sch : MOSFET as a variable resistor
 * 00-d_moscap.sch : MOSFET as a capacitor
 * 00-e_diode.sch : MOSFET as a diode
