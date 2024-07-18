@@ -51,7 +51,8 @@ N -60 -120 -60 -100 {
 lab=vout}
 N -60 -40 -60 -30 {
 lab=GND}
-N 120 -130 160 -130 {}
+N 120 -130 160 -130 {
+lab=vout}
 C {sky130_fd_pr/corner.sym} -140 -300 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/gnd.sym} 120 -40 0 0 {name=l3 lab=GND}
 C {devices/code_shown.sym} -190 40 0 0 {name=param only_toplevel=false value=".param Wp=6

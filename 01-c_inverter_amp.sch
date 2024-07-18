@@ -46,14 +46,16 @@ N -60 -120 -60 -100 {
 lab=vout}
 N -60 -40 -60 -30 {
 lab=GND}
-N 120 -130 160 -130 {}
+N 120 -130 160 -130 {
+lab=vout}
 C {sky130_fd_pr/corner.sym} -140 -300 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/gnd.sym} 120 -40 0 0 {name=l3 lab=GND}
 C {devices/code_shown.sym} -190 40 0 0 {name=param only_toplevel=false value=".param Wp=6
-.param Wn=1.5"}
+.param Wn=1.5
+.param Vib=0.9"}
 C {devices/gnd.sym} -240 -30 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} -240 -80 0 0 {name=Vdd value=1.8 savecurrent=false}
-C {devices/vsource.sym} -170 -80 0 0 {name=Vin value="DC 0.9 AC 1"  savecurrent=false}
+C {devices/vsource.sym} -170 -80 0 0 {name=Vin value="DC Vib AC 1"  savecurrent=false}
 C {devices/gnd.sym} -170 -30 0 0 {name=l2 lab=GND}
 C {devices/lab_pin.sym} -170 -130 1 0 {name=p2 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 40 -130 0 0 {name=p3 sig_type=std_logic lab=vin}
@@ -69,7 +71,7 @@ save @m.xm2.msky130_fd_pr__pfet_01v8[gds]
 dc Vin 0 1.8 0.01
 plot vout
 
-* AC analysis (I/O curve)
+* AC analysis
 ac dec 20 1e6 1e10
 set units=degree
 plot vdb(vout)
@@ -78,10 +80,11 @@ plot vp(vout)
 C {devices/vdd.sym} -240 -130 0 0 {name=l4 lab=VDD}
 C {devices/vdd.sym} 120 -220 0 0 {name=l5 lab=VDD}
 C {devices/lab_pin.sym} 160 -130 2 0 {name=p1 sig_type=std_logic lab=vout}
-C {devices/code_shown.sym} 20 420 0 0 {name=measure only_toplevel=false value=".measure dc gmn find @m.xm1.msky130_fd_pr__nfet_01v8[gm] at=0.9
-.measure dc gdsn find @m.xm1.msky130_fd_pr__nfet_01v8[gds] at=0.9
-.measure dc gmp find @m.xm2.msky130_fd_pr__pfet_01v8[gm] at=0.9
-.measure dc gdsp find @m.xm2.msky130_fd_pr__pfet_01v8[gds] at=0.9"}
+C {devices/code_shown.sym} 20 420 0 0 {name=measure only_toplevel=false value=".measure dc gmn find @m.xm1.msky130_fd_pr__nfet_01v8[gm] at=Vib
+.measure dc gdsn find @m.xm1.msky130_fd_pr__nfet_01v8[gds] at=Vib
+.measure dc gmp find @m.xm2.msky130_fd_pr__pfet_01v8[gm] at=Vib
+.measure dc gdsp find @m.xm2.msky130_fd_pr__pfet_01v8[gds] at=Vib
+.measure ac gain find Vdb(vout) at=1e6"}
 C {sky130_fd_pr/pfet_01v8.sym} 100 -170 0 0 {name=M2
 L=0.15
 W=Wp
