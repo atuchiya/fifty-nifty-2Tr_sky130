@@ -38,6 +38,17 @@ Harald Pretl and Matthias Eberlein, ``Fifty Nifty Variations of Two-Transistor C
 ### No. 3 : Tie-zero / tie-one
 * 03-a_tie.sch : tie-zero and tie-one
 
+### No. 4 : XNOR
+* 04-a_XNOR-R.sch : XNOR gate with resistor biasing
+
+### No. 5 : NAND
+* 05-a_NAND_R.sch : NAND gate with resistor biasing
+* 05-b_NAND_CMOS.sch : CMOS NAND gate
+
+### No. 6 : NOR
+* 06-a_NOR_R.sch : NOR gate with resistor biasing
+* 06-b_NOR_CMOS.sch : CMOS NOR gate
+
 ### No. 7 : Current mirror
 * 07-a_current-mirror.sch : Basic current mirror
 
