@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Cascoded Common-Source Amplifier
+T {11 Cascoded Common-Source Amplifier
 (w/ resistive load)} 20 -590 0 0 0.8 0.8 {layer=8}
 T {Achieve higher output impedance than normal common-source amplifier} 20 -480 0 0 0.4 0.4 {}
 N 120 -60 120 -40 {

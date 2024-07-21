@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Source Follower
+T {09 Source Follower
 (w/ active load)} 20 -380 0 0 0.8 0.8 {layer=8}
 N 120 -60 120 -40 {
 lab=GND}

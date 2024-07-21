@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Common-Source Amplifier
+T {10 Common-Source Amplifier
 (w/ active load)} 20 -380 0 0 0.8 0.8 {layer=8}
 N 120 -60 120 -40 {
 lab=GND}

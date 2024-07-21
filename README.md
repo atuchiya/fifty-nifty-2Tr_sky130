@@ -66,3 +66,10 @@ Harald Pretl and Matthias Eberlein, ``Fifty Nifty Variations of Two-Transistor C
 * 11-a_cascoded-cs.sch : Cascoded common-source amplifier, IO cureve and gain/phase curve
 * 11-b_cascoded-cs.sch : Cascoded common-source amplifier, output impedance
 
+### No. 14 : Transmission-gate
+* 14-a_transmission-gate.sch : Transmission-gate DC analysis
+* 14_b_transmission-gate_tran.sch : Transmission-gate Tran analysis (compare with pMOS/nMOS siwtch)
+
+### No. 28 : Cross-coupled pair
+* 28-a_cross-couple.sch : Cross-coupled pair (negative resistance)
+
